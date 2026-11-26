@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "flower=true": {
+      "model": "nerds_better_deserts:block/cactus_small_flower"
+    },
+    "flower=false": {
+      "model": "nerds_better_deserts:block/cactus_small"
+    }
+  }
+}

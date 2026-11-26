@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "nerds_better_deserts:item/cactus_flower"
+  }
+}

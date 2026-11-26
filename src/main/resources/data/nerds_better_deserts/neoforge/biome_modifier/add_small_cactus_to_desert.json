@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:has_structure/desert_pyramid",
+  "features": "nerds_better_deserts:small_cactus_cluster",
+  "step": "vegetal_decoration"
+}

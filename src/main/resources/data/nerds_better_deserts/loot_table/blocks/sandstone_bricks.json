@@ -11,7 +11,40 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "nerds_better_deserts:sandstone_bricks"
+          "name": "nerds_better_deserts:sandstone_bricks",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "nerds_better_deserts:sandstone_bricks",
+              "properties": {
+                "moss": "false"
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nerds_better_deserts:mossy_sandstone_bricks",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "nerds_better_deserts:sandstone_bricks",
+              "properties": {
+                "moss": "true"
+              }
+            }
+          ]
         }
       ],
       "rolls": 1

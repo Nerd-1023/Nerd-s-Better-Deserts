@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "nerds_better_deserts:block/wet_sandstone_bricks"
+  }
+}

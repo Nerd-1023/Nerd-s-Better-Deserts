@@ -1,5 +1,8 @@
 {
   "itemGroup.nerds_better_deserts": "Nerd's Better Deserts",
   "block.nerds_better_deserts.cactus_small": "Small Cactus",
-  "item.nerds_better_deserts.cactus_flower": "Cactus Flower"
+  "block.nerds_better_deserts.sandstone_bricks": "Sandstone Bricks",
+  "block.nerds_better_deserts.sandstone_dungeon_chest": "Sandstone Dungeon Chest",
+  "item.nerds_better_deserts.cactus_flower": "Cactus Flower",
+  "container.sandstone_dungeon_chest": "Sandstone Dungeon Chest"
 }

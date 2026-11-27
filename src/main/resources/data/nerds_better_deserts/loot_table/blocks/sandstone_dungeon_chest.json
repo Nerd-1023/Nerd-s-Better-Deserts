@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nerds_better_deserts:sandstone_dungeon_chest"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "nerds_better_deserts:blocks/sandstone_dungeon_chest"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "minecraft:block/sandstone_top",
+    "side": "nerds_better_deserts:block/sandstone_dungeon_chest_level0",
+    "top": "nerds_better_deserts:block/sandstone_dungeon_chest_top_locked"
+  }
+}

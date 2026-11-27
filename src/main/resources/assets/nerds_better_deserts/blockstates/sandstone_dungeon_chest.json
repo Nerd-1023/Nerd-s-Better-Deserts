@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "level=0": {
+      "model": "nerds_better_deserts:block/sandstone_dungeon_chest_level0"
+    },
+    "level=1": {
+      "model": "nerds_better_deserts:block/sandstone_dungeon_chest_level1"
+    },
+    "level=2": {
+      "model": "nerds_better_deserts:block/sandstone_dungeon_chest_level2"
+    },
+    "level=3": {
+      "model": "nerds_better_deserts:block/sandstone_dungeon_chest_level3"
+    },
+    "level=4": {
+      "model": "nerds_better_deserts:block/sandstone_dungeon_chest_level4"
+    },
+    "level=5": {
+      "model": "nerds_better_deserts:block/sandstone_dungeon_chest_level5"
+    },
+    "level=6": {
+      "model": "nerds_better_deserts:block/sandstone_dungeon_chest_level6"
+    }
+  }
+}

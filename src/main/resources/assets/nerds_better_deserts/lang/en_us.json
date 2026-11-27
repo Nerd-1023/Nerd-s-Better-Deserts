@@ -2,7 +2,9 @@
   "itemGroup.nerds_better_deserts": "Nerd's Better Deserts",
   "block.nerds_better_deserts.cactus_small": "Small Cactus",
   "block.nerds_better_deserts.sandstone_bricks": "Sandstone Bricks",
+  "block.nerds_better_deserts.mossy_sandstone_bricks": "Mossy Sandstone Bricks",
   "block.nerds_better_deserts.sandstone_dungeon_chest": "Sandstone Dungeon Chest",
   "item.nerds_better_deserts.cactus_flower": "Cactus Flower",
-  "container.sandstone_dungeon_chest": "Sandstone Dungeon Chest"
+  "container.sandstone_dungeon_chest": "Sandstone Dungeon Chest",
+  "block.nerds_better_deserts.cactus_with_flower": "Cactus With Flower"
 }

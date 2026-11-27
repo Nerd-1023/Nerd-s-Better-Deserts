@@ -1,28 +1,16 @@
 {
   "variants": {
-    "water=3,moss=false": {
+    "water=3": {
       "model": "nerds_better_deserts:block/wet_sandstone_bricks"
     },
-    "water=0,moss=false": {
+    "water=0": {
       "model": "nerds_better_deserts:block/sandstone_bricks_dry"
     },
-    "water=1,moss=false": {
+    "water=1": {
       "model": "nerds_better_deserts:block/sandstone_bricks"
     },
-    "water=2,moss=false": {
+    "water=2": {
       "model": "nerds_better_deserts:block/sandstone_bricks"
-    },
-    "water=3,moss=true": {
-      "model": "nerds_better_deserts:block/mossy_wet_sandstone_bricks"
-    },
-    "water=0,moss=true": {
-      "model": "nerds_better_deserts:block/mossy_sandstone_bricks_dry"
-    },
-    "water=1,moss=true": {
-      "model": "nerds_better_deserts:block/mossy_sandstone_bricks"
-    },
-    "water=2,moss=true": {
-      "model": "nerds_better_deserts:block/mossy_sandstone_bricks"
     }
   }
 }

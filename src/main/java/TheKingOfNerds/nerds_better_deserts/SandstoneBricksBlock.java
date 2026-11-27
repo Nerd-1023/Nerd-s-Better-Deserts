@@ -9,29 +9,22 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.properties.Property;
 
-import static TheKingOfNerds.nerds_better_deserts.Nerds_better_deserts.*;
-
 public class SandstoneBricksBlock extends Block {
     public static final IntegerProperty WATER =  IntegerProperty.create("water", 0, 3);
-    public static final BooleanProperty MOSS =  BooleanProperty.create("moss");
 
     public SandstoneBricksBlock(BlockBehaviour.Properties p_53247_) {
         super(p_53247_);
-        this.registerDefaultState((BlockState)((BlockState)this.stateDefinition.any()).setValue(WATER, 0).setValue(MOSS, false));
+        this.registerDefaultState((BlockState)((BlockState)this.stateDefinition.any()).setValue(WATER, 0));
     }
 
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
         builder.add(new Property[]{WATER});
-        builder.add(new Property[]{MOSS});
     }
 
     public BlockState getStateForPlacement(BlockPlaceContext context) {
-
-        if(context.getItemInHand().is(MOSSY_SANDSTONE_BRICKS_ITEM)){return (BlockState)((BlockState)this.defaultBlockState().setValue(MOSS, true));}
         return this.defaultBlockState();
     }
 
